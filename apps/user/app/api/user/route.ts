@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 import { PrismaClient } from "@repo/db/client";
 import { getServerSession } from "next-auth";
-import { authOptions } from "../../auth";
+import { authOptions } from "../../../lib/auth";
 
 const client = new PrismaClient();
 

@@ -1,3 +1,4 @@
+import { AppbarClient } from "../components/AppbarClient";
 import "./globals.css";
 import { Provider } from "./provider";
 import { Inter } from 'next/font/google';
@@ -13,7 +14,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Provider>{children}</Provider>
+
+        <Provider>
+          <AppbarClient/>
+          {children}
+        </Provider>
       </body>
     </html>
   );

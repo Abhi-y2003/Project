@@ -18,8 +18,8 @@ export const Appbar=({user, onSignin, onSignout}: AppbarProps )=>{
                 My Paytm
             </div>
 
-            <div className="flex flex-col justify-center pt-2 gap-3">
-                <div className={`rounded-full text-center bg-blue-800 w-8 h-8 ${user? "visible" : "hidden"}`}>
+            <div className="flex justify-center items-center pt-2 gap-3">
+                <div className={`rounded-full  bg-blue-800 w-8 h-8 mb-2 text-center text-white p-1 ${user? "visible" : "hidden"}`}>
                     {initialLetter}
                 </div>
                 <Button onClick={user ? onSignout : onSignin}>{user ? "Logout": "Login"}</Button>
