@@ -3,8 +3,6 @@ import { PrismaClient } from "@repo/db/client";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../../../lib/auth";
 
-const client = new PrismaClient();
-
 export const GET = async () => {
     const session = await getServerSession(authOptions);
     
