@@ -2,9 +2,9 @@
   "name": "final",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev --port 3001",
-    "lint": "turbo lint",
+    "build": "next build",
+    "dev": "next dev --port 3001",
+    "lint": "next lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
