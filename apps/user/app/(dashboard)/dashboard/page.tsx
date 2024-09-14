@@ -1,5 +1,10 @@
 export default function(){
     return<div>
-        dashboard
+        This is a new Dashboard Page
+        This is a new Dashboard Page
+        This is a new Dashboard Page
+        This is a new Dashboard Page
+        This is a new Dashboard Page
+        This is a new Dashboard Page
     </div>
 }
